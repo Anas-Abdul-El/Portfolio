@@ -3,7 +3,7 @@ import { motion } from 'motion/react';
 import { Github, Mail, Linkedin, ArrowRight } from 'lucide-react';
 import { Button } from './ui/button';
 
-export function HeroSection() {
+export default function HeroSection() {
     return (
         <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
             {/* Animated gradient background blobs */}
@@ -159,21 +159,6 @@ export function HeroSection() {
                             <span className="sr-only">{social.label}</span>
                         </motion.a>
                     ))}
-                </motion.div>
-
-                {/* Scroll indicator */}
-                <motion.div
-                    className="absolute bottom-10 left-1/2 transform -translate-x-1/2"
-                    animate={{ y: [0, 10, 0] }}
-                    transition={{ duration: 2, repeat: Infinity }}
-                >
-                    <div className="w-6 h-10 border-2 border-white/20 rounded-full flex items-start justify-center p-2">
-                        <motion.div
-                            className="w-1.5 h-1.5 bg-white rounded-full"
-                            animate={{ y: [0, 12, 0] }}
-                            transition={{ duration: 2, repeat: Infinity }}
-                        />
-                    </div>
                 </motion.div>
             </div>
         </section>

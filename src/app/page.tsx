@@ -1,3 +1,4 @@
+import HeroSection from "@/components/hero-section";
 import Navbar from "@/components/Navbar";
 
 export default function Home() {
@@ -9,6 +10,8 @@ export default function Home() {
         <div className="relative z-10">
 
           <Navbar />
+
+          <HeroSection />
 
         </div>
       </div>
