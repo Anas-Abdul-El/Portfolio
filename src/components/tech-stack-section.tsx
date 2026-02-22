@@ -60,7 +60,7 @@ export default function TechStackSection() {
                     viewport={{ once: true }}
                     transition={{ duration: 0.6 }}
                 >
-                    <h2 className="text-5xl font-bold mb-4 bg-gradient-to-b from-white to-gray-400 bg-clip-text text-transparent">
+                    <h2 className="text-5xl font-bold mb-4 bg-linear-to-b from-white to-gray-400 bg-clip-text text-transparent">
                         Tech Stack
                     </h2>
                     <p className="text-gray-400 text-lg max-w-2xl mx-auto">
@@ -78,14 +78,14 @@ export default function TechStackSection() {
                             viewport={{ once: true }}
                             transition={{ duration: 0.6, delay: index * 0.1 }}
                         >
-                            <div className="relative h-full p-8 bg-white/[0.02] backdrop-blur-sm border border-white/10 rounded-2xl hover:bg-white/[0.04] transition-all duration-300 overflow-hidden">
+                            <div className="relative h-full p-8 bg-white/2 backdrop-blur-sm border border-white/10 rounded-2xl hover:bg-white/4 transition-all duration-300 overflow-hidden">
                                 {/* Gradient background on hover */}
-                                <div className={`absolute inset-0 bg-gradient-to-br ${stack.gradient} opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-2xl`} />
+                                <div className={`absolute inset-0 bg-linear-to-br ${stack.gradient} opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-2xl`} />
 
                                 <div className="relative z-10">
                                     {/* Icon and title */}
                                     <div className="flex items-center gap-4 mb-6">
-                                        <div className="flex-shrink-0 p-3 bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl group-hover:scale-110 transition-transform duration-300">
+                                        <div className="shrink-0 p-3 bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl group-hover:scale-110 transition-transform duration-300">
                                             <stack.icon className="h-6 w-6 text-white" />
                                         </div>
                                         <h3 className="text-2xl font-semibold text-white">
