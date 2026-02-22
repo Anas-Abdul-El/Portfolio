@@ -140,9 +140,8 @@ export default function HeroSection() {
                     transition={{ duration: 0.8, delay: 0.6 }}
                 >
                     {[
-                        { icon: Github, href: 'https://github.com', label: 'GitHub' },
-                        { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-                        { icon: Mail, href: 'mailto:hello@example.com', label: 'Email' },
+                        { icon: Github, href: 'https://github.com/Anas-Abdul-El', label: 'GitHub' },
+                        { icon: Mail, href: 'mailto:anasabdulel@gmail.com', label: 'Email' },
                     ].map((social, index) => (
                         <motion.a
                             key={social.label}
