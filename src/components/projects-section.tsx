@@ -5,6 +5,14 @@ import { Button } from './ui/button';
 
 const projects = [
     {
+        title: 'Portfolio',
+        description: ' The one you at ',
+        image: './img/Screenshot 2026-02-22 143609.png',
+        tags: ['React', 'TypeScript', 'Tailwind CSS', 'Next.js', 'Shadcn/UI', "motion"],
+        github: 'https://github.com/Anas-Abdul-El/Portfolio',
+        demo: 'https://shoes-app-amber.vercel.app/',
+    },
+    {
         title: 'E-Commerce Platform',
         description: 'A full-featured e-commerce platform for selling shoes with real-time inventory management and seamless checkout experience.',
         image: './img/Screenshot 2026-02-22 141736.png',
