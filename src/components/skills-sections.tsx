@@ -29,7 +29,7 @@ const skills = [
     },
 ];
 
-export function SkillsSection() {
+export default function SkillsSection() {
     return (
         <section className="relative py-32 px-6" id="skills">
             <div className="max-w-7xl mx-auto">
