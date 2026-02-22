@@ -37,7 +37,7 @@ export default function Navbar() {
                                 <motion.a
                                     key={item.label}
                                     href={item.href}
-                                    className="px-4 py-2 text-gray-300 hover:text-white transition-colors rounded-full hover:bg-white/5"
+                                    className="px-4 py-2 text-gray-300 hover:text-white transition-colors rounded-full hover:bg-white/5 "
                                     initial={{ opacity: 0, y: -20 }}
                                     animate={{ opacity: 1, y: 0 }}
                                     transition={{
