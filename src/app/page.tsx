@@ -3,6 +3,8 @@ import Navbar from "@/components/Navbar";
 import SkillsSection from "@/components/skills-sections";
 import TechStackSection from "@/components/tech-stack-section";
 import ProjectsSection from "@/components/projects-section";
+import ContactSection from "@/components/contactUs";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
@@ -17,6 +19,8 @@ export default function Home() {
           <SkillsSection />
           <TechStackSection />
           <ProjectsSection />
+          <ContactSection />
+          <Footer />
 
         </div>
       </div>
