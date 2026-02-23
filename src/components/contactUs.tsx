@@ -15,11 +15,11 @@ export default function ContactSection() {
                     transition={{ duration: 0.6 }}
                 >
                     {/* Background blur effect */}
-                    <div className="absolute -inset-4 bg-gradient-to-r from-purple-500/20 via-blue-500/20 to-cyan-500/20 rounded-3xl blur-3xl opacity-50" />
+                    <div className="absolute -inset-4 bg-linear-to-r from-purple-500/20 via-blue-500/20 to-cyan-500/20 rounded-3xl blur-3xl opacity-50" />
 
-                    <div className="relative bg-white/[0.03] backdrop-blur-xl border border-white/10 rounded-3xl p-12 text-center">
+                    <div className="relative bg-white/3 backdrop-blur-xl border border-white/10 rounded-3xl p-12 text-center">
                         <motion.h2
-                            className="text-5xl font-bold mb-6 bg-gradient-to-b from-white to-gray-400 bg-clip-text text-transparent"
+                            className="text-5xl font-bold mb-6 bg-linear-to-b from-white to-gray-400 bg-clip-text text-transparent"
                             initial={{ opacity: 0, y: 20 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
