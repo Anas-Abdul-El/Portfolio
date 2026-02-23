@@ -13,7 +13,7 @@ export default function Footer() {
                     transition={{ duration: 0.6 }}
                 >
                     <p className="text-gray-400 mb-2">
-                        Built with React, TypeScript, and Tailwind CSS
+                        Built by Anas Abdul El
                     </p>
                     <p className="text-gray-500 text-sm" style={{ fontFamily: 'var(--font-mono)' }}>
                         © 2026 All rights reserved.

@@ -10,7 +10,7 @@ const projects = [
         image: './img/Screenshot 2026-02-22 143609.png',
         tags: ['React', 'TypeScript', 'Tailwind CSS', 'Next.js', 'Shadcn/UI', "motion"],
         github: 'https://github.com/Anas-Abdul-El/Portfolio',
-        demo: 'https://shoes-app-amber.vercel.app/',
+        demo: 'https://anas-abdul-el.vercel.app/',
     },
     {
         title: 'E-Commerce Platform',
